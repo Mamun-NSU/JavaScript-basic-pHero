@@ -25,3 +25,4 @@ for(const product of cart){
 }
 console.log("Total Price:", totalPrice);
 
+ 

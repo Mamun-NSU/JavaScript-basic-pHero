@@ -1,6 +1,7 @@
 
 const names = ["Mamun", "Pias", "Asif", "Sohan", "Anik", "Sony", "Pias", "Mamun", "Antu", "Sazzad", "Pias", "Misuk", "Mamun", "Anik", "Sazzad", "Asif", "Misuk"];
 
+
 function removeDuplicate(names) {
     const unique = [];
 
