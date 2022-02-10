@@ -6,6 +6,7 @@ function feetToInch(feet) {
     if (typeof feet < 0) {
         return "Please enter positive number";
     }
+    // 1 feet = 12 inch
     var inch = feet * 12;
     return inch;
 }
