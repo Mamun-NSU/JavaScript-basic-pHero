@@ -1,4 +1,4 @@
-
+// Grade calculator
 const marks = 84;
 if (marks > 80) {
     console.log("Gread: A+");
