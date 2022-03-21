@@ -1,3 +1,4 @@
+// pandaCost is somethings like food panda
 function pandaCost(noOfSingara, noOfSamucha, noOfJilapi) {
     // IF the parameters of this function are not number, then this error message shown
     if ((typeof noOfSingara != 'number') || (typeof noOfSamucha != 'number') || (typeof noOfJilapi != 'number')) {
