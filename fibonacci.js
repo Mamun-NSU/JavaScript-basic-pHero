@@ -1,15 +1,15 @@
-
-function fibonacciSeries(number){
-    if(typeof number != 'number'){
+// fibonacciSeries = 0,1,1,2,3,5,8,13,21,34,55,89....
+function fibonacciSeries(number) {
+    if (typeof number != 'number') {
         return "Please give a number";
     }
-    if(number<2){
+    if (number < 2) {
         return "Please enter a positive number greter than 1"
     }
-    const fibo =[0,1];
-    for(var i=2; i<number; i++){
+    const fibo = [0, 1];
+    for (var i = 2; i < number; i++) {
 
-        fibo[i] = fibo[i-1]+fibo[i-2];
+        fibo[i] = fibo[i - 1] + fibo[i - 2];
     }
     return fibo;
 }

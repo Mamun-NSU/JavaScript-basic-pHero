@@ -8,6 +8,7 @@ function anaToVori(ana) {
         return 'Please give a positive value';
     }
     let vori;
+    // 1 vori = 16 ana
     vori = ana / 16;
     return vori;
 }
